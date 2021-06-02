@@ -1,0 +1,58 @@
+/* Main body  */
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  color: #d6aab6;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Header */
+h1 {
+  font-size: 60px;
+}
+.container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Main */
+.calculator {
+  display: inline-block;
+  background-color: #b27b9fd4;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+table {
+  margin: auto;
+}
+
+input {
+  border-radius: 20px;
+  border: none;
+  width: auto;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+/* Button  */
+button {
+  margin: 3px;
+  border-radius: 20px;
+  border: none;
+  background-color: #c7365fc9;
+  color: #f8f2f5c4;
+  font-family: "Nunito", sans-serif;
+  height: 45px;
+  width: 135px;
+  font-size: 30px;
+}
+
+/* backspace button  */
+.back {
+  width: 270px;
+}
